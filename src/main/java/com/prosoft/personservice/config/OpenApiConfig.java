@@ -16,11 +16,12 @@ public class OpenApiConfig {
                 .info(new Info()
                         .title("Person Service API")
                         .version("1.0.0")
-                        .description("Демонстрационный микросервис для управления персонами с автоматической документацией OpenAPI")
+                        .description("Демонстрационный Spring Boot микросервис для управления персонами с автоматической генерацией документации OpenAPI. " +
+                                "Полный исходный код доступен в репозитории GitHub.")
                         .contact(new Contact()
-                                .name("Команда разработки")
-                                .email("dev@example.com")
-                                .url("https://github.com/alexey-techpisarov/person-service-openapi-demo"))
+                                .name("Sergey Proshchaev")
+                                .email("sergey_proshchaev@it-architects.ai")
+                                .url("https://github.com/sproshchaev/spring-openapi-demo"))
                         .license(new License()
                                 .name("MIT License")
                                 .url("https://opensource.org/licenses/MIT")));
